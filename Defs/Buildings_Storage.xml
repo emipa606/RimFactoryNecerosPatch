@@ -101,6 +101,9 @@
         <hideItems>true</hideItems>
       </li>
     </modExtensions>
+    <researchPrerequisites>
+      <li>PRFStorage</li>
+    </researchPrerequisites>
   </ThingDef>
 
 
@@ -156,6 +159,9 @@
         <hideItems>true</hideItems>
       </li>
     </modExtensions>
+    <researchPrerequisites>
+      <li>PRFStorage</li>
+    </researchPrerequisites>
   </ThingDef>
 
 </Defs>
