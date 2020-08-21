@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
+<!--
   <ThingDef ParentName="PRFMassStorageBase">
     <defName>NEC_TinyWoodCrate</defName>
     <label>Tiny wooden crate</label>
     <graphicData>
       <texPath>Storage/Wood_Crate6</texPath>
       <drawSize>(1,1)</drawSize>
-      <color>(133,97,67,256)</color>      <!-- used to set wood color because stuffed isnt used -->
-      <drawRotated>false</drawRotated>      <!-- Can rotate ingame without rotate texture, will flip horizontaly only. -->
+      <color>(133,97,67,256)</color>
+      <drawRotated>false</drawRotated>
     </graphicData>
     <statBases>
       <Mass>5</Mass>
@@ -31,7 +31,7 @@
             <li>BodyParts</li>
           </categories>
           <specialFiltersToDisallow>
-            <li>AllowRotten</li>            <!-- Disallow rotten by default -->
+            <li>AllowRotten</li>
           </specialFiltersToDisallow>
         </filter>
       </defaultStorageSettings>
@@ -57,8 +57,8 @@
     <graphicData>
       <texPath>Storage/Steel_Crate_tiny</texPath>
       <drawSize>(1,1)</drawSize>
-      <color>(133,97,67,256)</color>      <!-- used to set wood color because stuffed isnt used -->
-      <drawRotated>false</drawRotated>      <!-- Can rotate ingame without rotate texture, will flip horizontaly only. -->
+      <color>(133,97,67,256)</color>
+      <drawRotated>false</drawRotated>
     </graphicData>
     <statBases>
       <Mass>5</Mass>
@@ -81,7 +81,7 @@
             <li>BodyParts</li>
           </categories>
           <specialFiltersToDisallow>
-            <li>AllowRotten</li>            <!-- Disallow rotten by default -->
+            <li>AllowRotten</li>
           </specialFiltersToDisallow>
         </filter>
       </defaultStorageSettings>
@@ -104,8 +104,65 @@
     <researchPrerequisites>
       <li>PRFStorage</li>
     </researchPrerequisites>
-  </ThingDef>
+  </ThingDef> -->
 
+
+  <ThingDef ParentName="PRFMassStorageBase">
+    <defName>NEC_SmallUndergroundVault</defName>
+    <label>Small underground vault</label>
+    <graphicData>
+      <texPath>SmallVaultHatch</texPath>
+      <drawSize>(1,2)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <Mass>60</Mass>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <defaultStorageSettings>
+        <priority>Normal</priority>
+        <filter>
+          <categories>
+            <li>Manufactured</li>
+            <li>ResourcesRaw</li>
+            <li>Items</li>
+            <li>BuildingsArt</li>
+            <li>Weapons</li>
+            <li>Apparel</li>
+            <li>BodyParts</li>
+          </categories>
+          <specialFiltersToDisallow>
+            <li>AllowRotten</li>
+          </specialFiltersToDisallow>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <description>This small underground vault is near impenetrable and has 512 container slots. The underground portion contains a quick-lift elevator system to gain access to deep levels in the ground. Items will not deteriorate within the vault.</description>
+    <size>(1,2)</size>
+    <rotatable>true</rotatable>
+    <costList>
+      <Steel>240</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <modExtensions>
+      <li Class="ProjectRimFactory.Storage.Editables.DefModExtension_Crate">
+        <limit>512</limit>
+        <hideItems>true</hideItems>
+      </li>
+    </modExtensions>
+    <researchPrerequisites>
+      <li>PRFStorage</li>
+    </researchPrerequisites>
+  </ThingDef>
 
   <ThingDef ParentName="PRFMassStorageBase">
     <defName>NEC_UndergroundVault</defName>
@@ -139,12 +196,12 @@
             <li>BodyParts</li>
           </categories>
           <specialFiltersToDisallow>
-            <li>AllowRotten</li>            <!-- Disallow rotten by default -->
+            <li>AllowRotten</li>
           </specialFiltersToDisallow>
         </filter>
       </defaultStorageSettings>
     </building>
-    <description>This giant underground vault is near impenetrable and has 512 container slots. The underground portion contains a quick-lift elevator system to gain access to deep levels in the ground. Items will not deteriorate within the vault.</description>
+    <description>This giant underground vault is near impenetrable and has 1,024 container slots. The underground portion contains a quick-lift elevator system to gain access to deep levels in the ground. Items will not deteriorate within the vault.</description>
     <size>(2,2)</size>
     <rotatable>false</rotatable>
     <costList>
@@ -155,7 +212,7 @@
     <constructionSkillPrerequisite>11</constructionSkillPrerequisite>
     <modExtensions>
       <li Class="ProjectRimFactory.Storage.Editables.DefModExtension_Crate">
-        <limit>512</limit>
+        <limit>1024</limit>
         <hideItems>true</hideItems>
       </li>
     </modExtensions>
