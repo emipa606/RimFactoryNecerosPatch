@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<!--
+  <!--
   <ThingDef ParentName="PRFMassStorageBase">
     <defName>NEC_TinyWoodCrate</defName>
     <label>Tiny wooden crate</label>
@@ -105,8 +105,6 @@
       <li>PRFStorage</li>
     </researchPrerequisites>
   </ThingDef> -->
-
-
   <ThingDef ParentName="PRFMassStorageBase">
     <defName>NEC_SmallUndergroundVault</defName>
     <label>Small underground vault</label>
@@ -160,10 +158,9 @@
       </li>
     </modExtensions>
     <researchPrerequisites>
-      <li>PRFStorage</li>
+      <li>PRF_SteelCrates</li>
     </researchPrerequisites>
   </ThingDef>
-
   <ThingDef ParentName="PRFMassStorageBase">
     <defName>NEC_UndergroundVault</defName>
     <label>Underground vault</label>
@@ -217,8 +214,7 @@
       </li>
     </modExtensions>
     <researchPrerequisites>
-      <li>PRFStorage</li>
+      <li>PRF_SteelCrates</li>
     </researchPrerequisites>
   </ThingDef>
-
 </Defs>

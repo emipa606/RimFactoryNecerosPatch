@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>RimFactory Neceros Patch</name>
+  <name>RimFactory Neceros Patch (Continued)</name>
+  <packageId>Mlie.RimFactoryNecerosPatch</packageId>
   <author>Neceros</author>
+  <url>https://github.com/emipa606/RimFactoryNecerosPatch</url>
   <supportedVersions>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
-  <packageId>neceros.rimfactorysmallstorage</packageId>
-  <description>I added more boxes.</description>
   <modDependencies>
     <li>
       <packageId>spdskatr.projectrimfactory</packageId>
@@ -18,4 +19,60 @@
   <loadAfter>
     <li>spdskatr.projectrimfactory</li>
   </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Neceros mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2189947027
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/RimFactoryNecerosPatch][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+Adds large underground vaults for [i]Project RimFactory[/i].
+
+
+[h1]The vaults[/h1]
+[b]Small underground vault[/b] stores 512 items
+[img]https://i.imgur.com/dKIWd7c.png[/img]
+
+[b]Underground vault[/b] stores 1,024 items
+[img]https://i.imgur.com/nJ9Ns9u.png[/img]
+
+
+[img]https://i.imgur.com/JqbhBiR.png[/img]
+
+[img]https://i.imgur.com/NpuFU7v.png[/img]
+
+[b]Github:[/b] https://github.com/Neceros/RimFactoryNecerosPatch
+
+[img]https://i.imgur.com/s3KRLlu.gif[/img]
+
+[b]Get help, Ask questions, Give suggestions:[/b]
+[url=https://discord.gg/AvV7DT5][img]https://i.imgur.com/lkEpF5w.png[/img][/url]
+
+[b]My mods:[/b]
+[url=https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;amp;p=1&amp;amp;numperpage=30][img]https://i.imgur.com/MD0xY84.png[/img][/url]
+
+[b]Like these mods? Support me so I can make more:[/b]
+[url=https://ko-fi.com/Q5Q019Y8A][img]https://i.imgur.com/EHcTTRx.png[/img][/url]
+
+[i]MIT License; Copyright (c) 2020 Billy J Barnes[/i]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
 </ModMetaData>
