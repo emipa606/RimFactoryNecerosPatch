@@ -23,30 +23,6 @@ Adds large underground vaults for *Project RimFactory*.
 ![Image](https://i.imgur.com/nJ9Ns9u.png)
 
 
-
-![Image](https://i.imgur.com/JqbhBiR.png)
-
-
-![Image](https://i.imgur.com/NpuFU7v.png)
-
-
-**Github:** https://github.com/Neceros/RimFactoryNecerosPatch
-
-![Image](https://i.imgur.com/s3KRLlu.gif)
-
-
-**Get help, Ask questions, Give suggestions:**
-https://discord.gg/AvV7DT5]![Image](https://i.imgur.com/lkEpF5w.png)
-
-
-**My mods:**
-https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;p=1&amp;numperpage=30]![Image](https://i.imgur.com/MD0xY84.png)
-
-
-**Like these mods? Support me so I can make more:**
-https://ko-fi.com/Q5Q019Y8A]![Image](https://i.imgur.com/EHcTTRx.png)
-
-
 *MIT License; Copyright (c) 2020 Billy J Barnes*
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
