@@ -111,7 +111,6 @@
     <graphicData>
       <texPath>SmallVaultHatch</texPath>
       <drawSize>(1,2)</drawSize>
-      <drawRotated>false</drawRotated>
     </graphicData>
     <castEdgeShadows>false</castEdgeShadows>
     <staticSunShadowHeight>0</staticSunShadowHeight>
