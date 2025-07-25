@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Small underground vault -->
+  <NEC_SmallUndergroundVault.label>Small underground vault</NEC_SmallUndergroundVault.label>
+  <!-- EN: This small underground vault is near impenetrable and has 512 container slots. The underground portion contains a quick-lift elevator system to gain access to deep levels in the ground. Items will not deteriorate within the vault. -->
+  <NEC_SmallUndergroundVault.description>This small underground vault is near impenetrable and has 512 container slots. The underground portion contains a quick-lift elevator system to gain access to deep levels in the ground. Items will not deteriorate within the vault.</NEC_SmallUndergroundVault.description>
+  <!-- EN: Small underground vault -->
+  <NEC_SmallUndergroundVault.building.groupingLabel>Small underground vault</NEC_SmallUndergroundVault.building.groupingLabel>
+  <!-- EN: Underground vault -->
+  <NEC_UndergroundVault.label>Underground vault</NEC_UndergroundVault.label>
+  <!-- EN: This giant underground vault is near impenetrable and has 1,024 container slots. The underground portion contains a quick-lift elevator system to gain access to deep levels in the ground. Items will not deteriorate within the vault. -->
+  <NEC_UndergroundVault.description>This giant underground vault is near impenetrable and has 1,024 container slots. The underground portion contains a quick-lift elevator system to gain access to deep levels in the ground. Items will not deteriorate within the vault.</NEC_UndergroundVault.description>
+  <!-- EN: Underground vault -->
+  <NEC_UndergroundVault.building.groupingLabel>Underground vault</NEC_UndergroundVault.building.groupingLabel>
+</LanguageData>

@@ -2,5 +2,14 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 7462,
+  "CodeBaseSize": 61,
+  "LastXmlCleaning": "2025-07-25T15:58:17.2999291+02:00",
+  "SocialImageSet": true,
+  "SearchTags": " vault storage"
 }
